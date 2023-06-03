@@ -24,3 +24,7 @@ brew bundle install
 echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells > dev/null
 chsh -s /opt/homebrew/bin/fish
 ```
+
+## Usage
+
+To check in any additional dotfiles, either use the `config` command (alias for `git` command targeting `~/.cfg` folder specifically) or `config-update <asdf / brew / fish>`.
