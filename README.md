@@ -5,7 +5,7 @@ The followings steps illustrate how to setup my [dotfiles](https://github.com/ma
 ```zsh
 # Clone dotfiles configuration into ~/.cfg folger
 echo ".cfg" >> .gitignore
-git clone --bare git@github.com:manuelfuchs/dotfiles.git $HOME/.cfg
+git clone --bare https://github.com/manuelfuchs/dotfiles.git $HOME/.cfg
 
 # Setup config alias for current shell session
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
