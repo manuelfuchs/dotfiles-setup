@@ -18,7 +18,7 @@ config config --local status.showUntrackedFiles no
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install software defined in Brewbundle file
-brew bundle install
+/opt/homebrew/bin/brew bundle install
 
 # Set fish as default shell
 echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells > dev/null
