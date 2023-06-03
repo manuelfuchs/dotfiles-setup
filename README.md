@@ -21,7 +21,7 @@ config config --local status.showUntrackedFiles no
 /opt/homebrew/bin/brew bundle install
 
 # Set fish as default shell
-echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells > dev/null
+echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
 chsh -s /opt/homebrew/bin/fish
 ```
 
